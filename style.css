@@ -1,0 +1,111 @@
+/* rESET
+================================================= */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* hEADER
+================================================= */
+.header{
+    background: rgb(61, 96, 136);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+.header__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header__nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.header__nav ul li{
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: aliceblue;
+    transform: scale(1);
+    transition: all 120ms ease-in;
+}
+.header__nav ul li:hover{
+    color: rgb(180, 32, 76);
+    transform: scale(1.1);
+    padding-left: -15px;
+    padding-right: -15px;
+}
+/* mAIN1
+================================================= */
+.main1{
+    display: flex;
+    padding: 10% 0px;
+    background-image: url(/basico/images/bg-search.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+}
+.main1__tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.main1__tittle h1{
+    font-size: 50px;
+    color: aliceblue;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.main1__tittle p{
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+.main1__form{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.main1__form input{
+    font-size: 35px;
+    text-align: center;
+    background: aliceblue;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    transition: all 180ms ease-in;
+}
+.main1__form input:focus{
+    background: rgb(220, 239, 255);
+}
+.main1__form button{
+    font-size: 15px;
+    color: aliceblue;
+    padding: 20px;
+    background: rgb(158, 37, 16);
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 120ms ease-in;
+}
+.main1__form button:hover{
+    background: rgb(182, 38, 13);
+    transform: scale(1.05);
+}
+
+
